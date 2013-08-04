@@ -33,7 +33,8 @@ return array(
 
 	'modules'=>array(
 
-		// ativado gii
+		// desativado gii
+		/*
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'generatorPaths'=>array(
@@ -43,6 +44,7 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
+		*/
 		
 	),
 
@@ -75,11 +77,11 @@ return array(
 		// 	'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		// ),
 
-		// CONFIGURACAO DO BANCO DE DADOS MYSQL
+		// CONFIGURACAO DO BANCO DE DADOS MYSQL DO SERVIDOR EX: RACKSPACE
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=yii_estudos',
-			'username' => 'root',
-			'password' => 'root',
+			'connectionString' => 'mysql:host=09e2a4b98828f9f29fb72a996ed31310a1fac049.rackspaceclouddb.com;dbname=nomedoseubancoaqui',
+			'username' => 'seuusernameaqui',
+			'password' => 'suasenhaaqui',
 
 			// configuracoes extras
 			'emulatePrepare' => true,
