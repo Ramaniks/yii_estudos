@@ -1,5 +1,6 @@
 assets/**/*
 assets/*
 protected/runtime/*
+protected/config/main-local.php
 .DS_Store
 !.gitignore
